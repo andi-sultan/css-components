@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Components</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="showcase">
+      <h1>My Components</h1>
+    </div>
+
+    <div class="showcase">
+      <div>
+        <h2 class="mb-2rem">Headings and Paragraph</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam, atque sapiente
+          maiores facilis dignissimos adipisci voluptate dolorem vel officiis magnam, a delectus consectetur debitis
+          repudiandae aspernatur rerum iusto totam?</p>
+      </div>
+    </div>
+
+    <div class="showcase">
+      <h2 class="mb-2rem">Buttons</h2>
+      <h3 class="mb-2rem">Styled Buttons</h3>
+      <a href="#" class="btn btn--link">Link</a>
+      <button class="btn btn--solid">Solid</button>
+      <button class="btn btn--solid disabled">Disabled</button>
+      <button class="btn btn--outline">Outline</button>
+      <button class="btn btn--outline disabled">Disabled</button>
+    </div>
+
+    <div class="showcase">
+      <h2 class="mb-2rem">Inputs</h2>
+      <h3 class="mb-2rem">Text</h3>
+      <input class="input" type="text" placeholder="Enter text">
+      <input class="input" type="text" placeholder="Disabled" disabled>
+    </div>
+
+    <div class="showcase">
+      <h4 class="mb-2rem">Date</h4>
+      <input class="input" type="date">
+      <input class="input" type="date" disabled>
+    </div>
+
+    <div class="showcase">
+      <h4 class="mb-2rem">Number</h4>
+      <input class="input" type="number" value="123">
+      <input class="input" type="number" value="456" disabled>
+    </div>
+
+    <div class="showcase">
+      <h4 class="mb-2rem">Color Input</h4>
+      <input class="input" type="color">
+      <input class="input" type="color" disabled>
+    </div>
+
+    <div class="showcase">
+      <h4 class="mb-2rem">Textarea</h4>
+      <textarea class="input" placeholder="Textarea"></textarea>
+      <textarea class="input" placeholder="disabled" disabled></textarea>
+    </div>
+
+    <div class="showcase">
+      <h4 class="mb-2rem">File</h4>
+      <input class="input" type="file">
+      <input class="input" type="file" disabled>
+    </div>
+
+    <div class="showcase">
+      <h3 class="mb-2rem">Search Bar</h3>
+      <div>
+        <form action="" class="search-bar">
+          <input class="input" type="text" placeholder="Search...">
+          <button class="search-bar__btn" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+      <div>
+        <form action="" class="search-bar">
+          <input class="input" type="text" placeholder="Disabled..." disabled>
+          <button class="search-bar__btn" type="submit" disabled><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="showcase">
+      <h3 class="mb-2rem">Checkbox</h3>
+      <div>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" checked="checked">
+            <span class="checkbox__label">checkbox 1</span>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox">
+            <span class="checkbox__label">checkbox 2</span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox">
+            <span class="checkbox__label">checkbox 3</span>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" disabled>
+            <span class="checkbox__label">checkbox disabled</span>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" disabled checked>
+            <span class="checkbox__label">checkbox checked disabled</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="showcase">
+      <h3 class="mb-2rem">Radio Button</h3>
+      <div>
+        <div>
+          <label class="radio">
+            <input type="radio" name="radio" checked="checked">
+            <span class="radio__label">Radio 1</span>
+          </label>
+        </div>
+        <div>
+          <label class="radio">
+            <input type="radio" name="radio">
+            <span class="radio__label">Radio 2</span>
+          </label>
+          <label class="radio">
+            <input type="radio" name="radio">
+            <span class="radio__label">Radio 3</span>
+          </label>
+        </div>
+        <div>
+          <label class="radio">
+            <input type="radio" name="radio" disabled>
+            <span class="radio__label">Radio disabled</span>
+          </label>
+        </div>
+        <div>
+          <label class="radio">
+            <input type="radio" name="another-radio" disabled checked>
+            <span class="radio__label">Radio checked disabled</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="showcase">
+      <h3 class="mb-2rem">Select</h3>
+      <select class="input">
+        <option value="0">Select car:</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+
+      <select class="input" disabled>
+        <option value="0">Disabled</option>
+      </select>
+    </div>
+
+
+    <div style="text-align: center; margin: 30px 0 30px;">
+      <p>Created by <b><a href="https://github.com/andi-sultan">Andi Sultan</a></b> 2020</p>
+      <p><a href="https://github.com/andi-sultan/my-css-components">View code on GitHub</a></p>
+    </div>
+  </div>
+</body>
+
+</html>
