@@ -192,8 +192,8 @@ textarea.input {
 }
 
 /* checkbox/radio select button */
-.checkbox__input + .checkbox__label::before,
-.radio__input + .radio__label::before {
+.checkbox__label::before,
+.radio__label::before {
   content: "";
   position: absolute;
   width: 1em;
@@ -204,11 +204,11 @@ textarea.input {
   left: 0;
 }
 /* checkbox select button */
-.checkbox__input + .checkbox__label::before {
+.checkbox__label::before {
   border-radius: 3px;
 }
 /* radio select button */
-.radio__input + .radio__label::before {
+.radio__label::before {
   border-radius: 50%;
 }
 
