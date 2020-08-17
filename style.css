@@ -105,7 +105,7 @@ textarea.input {
   font-size: inherit;
   font-family: inherit;
 }
-.btn.disabled {
+.btn:disabled {
   cursor: not-allowed;
 }
 
@@ -126,7 +126,7 @@ textarea.input {
   background-color: #242321;
   border: 1px solid #242321;
 }
-.btn--solid.disabled {
+.btn--solid:disabled {
   background-color: #aaa;
   border: 1px solid #aaa;
 }
@@ -144,7 +144,7 @@ textarea.input {
   border: 1px solid #242321;
   color: #fff;
 }
-.btn--outline.disabled {
+.btn--outline:disabled {
   background-color: #fff;
   border: 1px solid #aaa;
   color: #aaa;
